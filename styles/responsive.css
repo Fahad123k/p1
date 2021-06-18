@@ -1,0 +1,49 @@
+@media only screen and (max-width:1000px) {
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 470px;
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+    }
+
+    .burger{
+        display: block;
+        margin: auto;
+        padding: 10px 0px;
+    }
+    .rightnav{
+        flex-direction: column; 
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        /* opacity: 0; */
+        visibility: collapse;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%
+    }
+    .section{
+        flex-direction: column-reverse;
+         
+    }
+    .lineMotion{
+        width: 33px;
+        height: 3px;
+        margin: 7px 7px;
+        /* flex-direction: row; */
+        /* display: center; */
+        transition: all 0.3s ease-out;
+    
+        
+    }
+    .para{
+        padding: 0;
+    }
+    
+}
+
